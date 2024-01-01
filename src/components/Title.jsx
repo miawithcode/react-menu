@@ -1,9 +1,8 @@
-const Title = ({title}) => {
+const Title = ({ titleText }) => {
   return (
-    <div>
-      <h2>{title || 'Default Title'}</h2>
-      <div className="title-underline"></div>
-    </div>
-  )
-}
-export default Title
+    <section>
+      <h2>{titleText || 'Default Title'}</h2>
+    </section>
+  );
+};
+export default Title;
