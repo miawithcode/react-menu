@@ -1,6 +1,12 @@
+import Title from "./components/Title"
+
 const App = () => {
   return (
-    <div>App</div>
+    <main>
+      <section>
+        <Title title='Menu' />
+      </section>
+    </main>
   )
 }
 export default App
