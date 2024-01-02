@@ -2,11 +2,11 @@ import MenuItem from './MenuItem';
 
 const Menu = ({ menuItems }) => {
   return (
-    <section>
+    <div>
       {menuItems.map((menuItem) => {
         return <MenuItem key={menuItem.id} {...menuItem} />;
       })}
-    </section>
+    </div>
   );
 };
 export default Menu;

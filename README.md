@@ -5,8 +5,8 @@
 ## Steps
 1. 创建 `Title` 组件用来展示标题
 2. 导入 menu 数据
-3. 用 `useState` 将导入的 menu 数据存储为状态变量（in `App.jsx`）
-4. 传递状态变量 prop 给 `Menu.jsx`，给数组中的每一个 Object 加载组件 `MenuItem`
+3. 在 `App.jsx `中用 `useState` 将导入的 menu 数据存储为状态变量
+4. 传递状态变量 prop 给 `Menu` 组件，给数组中的每一个 Object 加载组件 `MenuItem`
 5. 在 `MenuItem` 组件中展示图片、标题、价格和描述属性
 6. 定义一个函数从 menu 数据中获取所有元素的 `category` 属性，存储为一个新的数组。（此时的 category 有重复）
 7. 用 `new Set()` 从有所有元素 `categort` 属性的数组获取 unique categories，并存储到一个 separate array，包括一个 `all` 的 categroy 来展示所有的 menu items

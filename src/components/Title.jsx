@@ -1,8 +1,8 @@
 const Title = ({ titleText }) => {
   return (
-    <section>
+    <div>
       <h2>{titleText || 'Default Title'}</h2>
-    </section>
+    </div>
   );
 };
 export default Title;

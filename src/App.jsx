@@ -4,6 +4,7 @@ import menu from './data';
 
 import Title from './components/Title';
 import Menu from './components/Menu';
+import Categories from './components/Categories';
 
 const allCategories = ['all', ...new Set(menu.map((item) => item.category))];
 
@@ -14,9 +15,12 @@ const App = () => {
 
   return (
     <main>
-      <Title titleText="Our Menu" />
-      <Menu menuItems={menuItems} />
+      <section>
+        <Title titleText="Our Menu" />
+        <Categories categories={categories} />
+        <Menu menuItems={menuItems} />
+      </section>
     </main>
   );
 };
-export default App; 
+export default App;
