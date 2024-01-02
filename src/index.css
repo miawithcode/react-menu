@@ -83,6 +83,12 @@ img {
 
 }
 
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 .menu-item {
   width: 20rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,

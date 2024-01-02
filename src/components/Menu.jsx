@@ -2,7 +2,7 @@ import MenuItem from './MenuItem';
 
 const Menu = ({ menuItems }) => {
   return (
-    <div>
+    <div className='menu-container'>
       {menuItems.map((menuItem) => {
         return <MenuItem key={menuItem.id} {...menuItem} />;
       })}
